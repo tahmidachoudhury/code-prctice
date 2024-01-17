@@ -7,3 +7,7 @@ shoppingList = {
 print(shoppingList["butcher"][1])
 
 print(shoppingList["Other"])
+
+shoppingList["snacks"] = ['Chocolate', 'Walkers Crisps']
+
+print(shoppingList)
