@@ -19,6 +19,24 @@ practice_dict = {
     "Belfast": "Northern Ireland" 
 }
 
+passwords = {
+  'acebook' : {
+    'password' : 'password123',
+    'added_on' : '22/03/22',
+  },
+  'makersbnb' : {
+    'password' : 'qwerty789',
+    'added_on' : '22/03/22',
+  }
+}
+
+passwords2 = [
+  {'service' : 'acebook', 'password' : 'password123', 'added_on' : '22/03/22'},
+  {'service' : 'makersbnb', 'password' : 'qwerty789', 'added_on' : '22/03/22'}
+]
+
+print(passwords2[0]['added_on'])
+
 #print(practice_dict.keys())
 #print(practice_dict.values())
 #print(practice_dict.get('London'))
